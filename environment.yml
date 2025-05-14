@@ -1,0 +1,25 @@
+name: persona-performance
+channels:
+- conda-forge
+- defaults
+
+
+dependencies:
+- python==3.12
+- jupyter
+- ipykernel
+- scikit-learn
+- matplotlib
+- seaborn
+- pip
+- pip:
+  - --index-url https://download.pytorch.org/whl/cu121
+  - torch
+  - torchvision 
+  - torchaudio
+  - torchmetrics
+- pip:  
+  - datasets
+  - transformers
+  - vllm
+  - pandas
