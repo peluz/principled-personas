@@ -15,7 +15,7 @@ conda env create -f environment.yml
 ```
 
 ## Persona generations
-- Generations from all personas for all models and prompting strategies is available in the "results" folder. Due to size limits from anonymous github, we do not include generations for MMLU-Pro and MATH. These will be included in the non-anonymous version.
+- Generations from all personas for all models and prompting strategies is available in the "results" folder.
 
 
 ## Reproducing the experiments
